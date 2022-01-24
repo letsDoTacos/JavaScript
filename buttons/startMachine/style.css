@@ -1,0 +1,18 @@
+/* ==========startMachine========= */
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  color: green;
+  border: green solid 1px;
+}
+
+
+/* ========== .. ========= */
