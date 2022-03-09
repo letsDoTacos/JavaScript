@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: slategray;
+  background-color: steelblue;
   font-family: "Roboto", sans-serif;
 }
 
@@ -19,28 +19,48 @@ body {
   padding: 40px;
   background-color: white;
   display: flex;
+  flex-direction: column;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .container h2 {
   font-size: 2rem;
   margin: -40px -40px 50px -40px;
   text-align: center;
-  background: rgb(29, 98, 203);
+  background: royalblue;
   color: #fff;
 }
-
 .container textarea {
   position: relative;
   margin-bottom: 20px;
   resize: none;
   height: 200px;
-  width: 100% !important;
+  width: 100%;
   padding: 10px;
   border: none;
+  border-radius: 5px;
   outline: none;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   box-shadow: 0 0 10px rgba(0, 139, 253, 0.45);
   letter-spacing: 0.1rem;
+}
+
+.container p {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  color: green;
+}
+
+.container p .counter {
+  font-size: 2rem;
+  color: green;
+  box-shadow: 0 0 10px rgba(0, 139, 253, 0.45);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 10px;
 }
