@@ -7,21 +7,30 @@
   box-sizing: border-box;
 }
 
+/* h1 */
+
 /* body */
 body {
   background-color: peru;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
   text-align: center;
   display: flexbox;
 }
 
 .container {
   width: 350px;
-  height: 300px;
+  height: 200px;
+  padding: 10px;
   background-color: darkkhaki;
-  margin-left: 40%;
-  margin-top: 30%;
-  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  top: 20%;
+  left: 38%;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#output {
+  margin-top: 30px;
 }
