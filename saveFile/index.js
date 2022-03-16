@@ -34,7 +34,7 @@ window.onload = () => {
     //The value of what had been input in the textarea
     const content = document.getElementById('text').value;
 
-    // The && (logical AND) operator indicates whether both operands are true. If both operands have nonzero values, the result has the value 1 . Otherwise, the result has the value 0.
+    // The && (logical AND) operator indicates whether both operands are true. 
 
     if(filename && content){
       downloadFile(filename, content)
