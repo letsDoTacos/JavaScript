@@ -10,7 +10,74 @@
 /* body */
 
 body {
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
   background-color: cornflowerblue;
   font-family: "Rubik", sans-serif;
   text-align: center;
+}
+
+/* h2 */
+h2 {
+  color: deeppink;
+  font-size: 30px;
+  width: 100%;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* container */
+.container {
+  width: 430px;
+  padding: 40px 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  -webkit-box-shadow: 9px 13px 9px -6px rgba(0, 0, 0, 0.48);
+  box-shadow: 9px 13px 9px -6px rgba(0, 0, 0, 0.48);
+}
+
+/* text area */
+#text {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  color: #021652;
+  border: 2px solid #3ba9f4;
+  border-radius: 2px;
+  resize: none;
+  margin-bottom: 35px;
+  height: 200px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* filename */
+#filename {
+  width: calc(100% - 200px);
+  border: 2px solid #3ba9f4;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #052a53;
+  padding: 0 10px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* button */
+#download {
+  background-color: #3ba9f4;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  width: 174px;
+  cursor: pointer;
 }
