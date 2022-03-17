@@ -11,10 +11,107 @@ html {
   font-size: 100%;
 }
 
+/* body */
+
 body {
   height: 100vh;
   width: 100%;
-  background-color: orangered;
-  color: orange;
+  background-color: royalblue;
+  font-family: "Cabin", sans-serif;
   text-align: center;
+}
+
+h1 {
+  margin-top: 5%;
+  color: white;
+}
+
+/* container */
+.container-fluid {
+  background-color: lightblue;
+  width: 410px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 5%;
+  -webkit-box-shadow: 9px 13px 9px -6px rgba(0, 0, 0, 0.48);
+  box-shadow: 9px 13px 9px -6px rgba(0, 0, 0, 0.48);
+}
+
+/* input */
+.inputs {
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  justify-content: center;
+  background: #0548b5;
+  border-radius: 5px;
+}
+
+.inputs input[type="text"] {
+  height: 3.5rem;
+  width: 20rem;
+  background: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+.inputs input[type="submit"] {
+  height: 3.2rem;
+  width: 6.5rem;
+  background: red;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/* display */
+.display {
+  text-align: center;
+  width: 400px;
+  /* height: 400px; */
+  color: #16a864;
+}
+
+.wrapper {
+  margin: 0 9rem;
+  background-color: white;
+  height: 55vh;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.wrapper h2 {
+  padding: 5px 0;
+  text-align: center;
+  background: #0548b5;
+  color: white;
+  font-family: sans-serif;
+}
+.wrapper p {
+  margin: 20px 50px;
+  margin-right: 20px;
+  text-align: left;
+  color: #04214c;
+  font-size: 23px;
+}
+
+.wrapper h2 span {
+  font-size: 26px;
+  color: lightblue;
+}
+
+.wrapper p span {
+  color: #0548b5;
+  font-size: 25px;
 }
