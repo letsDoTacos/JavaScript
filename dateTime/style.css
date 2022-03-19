@@ -1,0 +1,26 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+  color: white;
+}
+
+/* h1 */
+h1 {
+  margin-top: 20px;
+}
+
+/* body */
+body {
+  background-image: url(https://kultur.istanbul/gorsel/2022/01/salvador.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
