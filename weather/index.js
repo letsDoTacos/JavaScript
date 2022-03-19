@@ -1,6 +1,5 @@
 // alert('taco time');
 
-
 let inputval = document.querySelector('#cityinput')
 let btn = document.querySelector('#add');
 let city = document.querySelector('#cityoutput');
