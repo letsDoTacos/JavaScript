@@ -28,15 +28,58 @@ body {
 
 /* container */
 .clock {
-  width: 350px;
-  height: 100px;
-  float: right;
+  width: 150px;
+  height: 65px;
   text-align: center;
-  /* margin-left: 30%; */
-  margin-top: 10px;
-  margin-right: 10px;
-  padding: 5px;
   background-color: rgba(22, 77, 98, 0.3);
   border: 5px solid rgba(22, 77, 98, 0.5);
   border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 5%;
+  padding: 5px;
+  position: relative;
 }
+
+.clock .time {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+.clock .time span {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #09ecf8;
+  line-height: 1.75;
+}
+
+.clock .time span.colon {
+  width: 14px;
+  padding: 15px;
+  text-align: center;
+  /* animation: blink 2s infinite; */
+}
+
+/* @keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
