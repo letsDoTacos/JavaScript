@@ -1,0 +1,14 @@
+/* resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: purple;
+  text-align: center;
+  color: white;
+}
