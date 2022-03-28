@@ -21,6 +21,17 @@
       <input type="range" min="4" max="24" step="1" value="8" id="pass_length" oninput="document.getElementById('display_pass_length').value=this.value">
       <input type="text" value="8" maxlength="2" id="display_pass_length" oninput="document.getElementById('pass_length').value=this.value">
     </div>
+    <div class="flex">
+      <input type="checkbox" id="lowercase" checked="checked">
+      <label for="lowercase">a-z</label>
+      <input type="checkbox" id="uppercase">
+      <label for="uppercase">A-Z</label>
+      <input type="checkbox" id="number">
+      <label for="number">0-9</label>
+      <input type="checkbox" id="symbols">
+      <label for="symbols">!-?</label>
+    </div>
+
   </div>
  
 
