@@ -12,7 +12,7 @@
   // symbols
   const symbolData = "!@#$%^&*-_=+\|:;',.>/?~".split('');
 
-  function getPassword() {
+  function generatePassword() {
 
     const data = [].concat(
       lowercase.checked ? lowerCaseData : [],
@@ -24,6 +24,8 @@
     // value fromn the range slider is stored in password.length
     let passwordLength = parseInt(document.getElementById('display-password-length').value);
     let newPassword = '';
+      // console.log("data: ", data);
+      console.log("passWord: ", passwordLength);
 
     // alert if you do not select a box
 
@@ -35,9 +37,12 @@
 
     for(let i = 0; i < passwordLength; i++) {
       newPassword += data[Math.floor(Math.random() * data.length)];
+      console.log("data: ", data);
     }
     // display new password
     passwordOutput.value = newPassword;
+    console.log("newPassword: ", newPassword);
+
 
     // gennerating a new password will auto copy to cb
     passwordOutput.select();
