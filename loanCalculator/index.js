@@ -1,4 +1,4 @@
-// alert("taco time");
+// alert('Peanut Butter Jelly Time!!!');
 
 function computeLoan() {
    const amount = document.querySelector('#amount').value;

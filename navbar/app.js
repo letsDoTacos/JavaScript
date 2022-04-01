@@ -1,3 +1,4 @@
+// alert('Peanut Butter Jelly Time!!!');
 // classList - shows/gets all classes
 // contains - checks classList for specific class
 // add - add class

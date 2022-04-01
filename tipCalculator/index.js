@@ -1,4 +1,4 @@
-// alert('taco time!');
+// alert('Peanut Butter Jelly Time!!!');
 
 // global const
 const form = document.getElementById("form");

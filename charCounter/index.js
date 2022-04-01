@@ -1,3 +1,5 @@
+// alert('Peanut Butter Jelly Time!!!');
+
 // create global vars
 const textarea = document.querySelector('textarea');
 const counter = document.querySelector('.counter');

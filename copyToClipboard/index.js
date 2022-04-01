@@ -1,4 +1,4 @@
-// alert('taco time!!!');
+// alert('Peanut Butter Jelly Time!!!');
 
 let copy = (textId) => {
   // select the text in the <input> element

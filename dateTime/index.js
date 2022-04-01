@@ -1,4 +1,4 @@
-// alert('taco time!!');
+// alert('Peanut Butter Jelly Time!!!');
 
 const hours = document.querySelector('.hours');
 // console.log(hours);
