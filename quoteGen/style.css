@@ -3,18 +3,90 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* h1 */
-h1 {
+/* h1 {
   font-family: "Permanent Marker", cursive;
   text-align: center;
   color: purple;
   margin-top: 20px;
   font-size: 48px;
-}
+} */
 
 /* body */
 body {
   background-color: grey;
+}
+
+/* h2 & wrapper */
+
+.wrapper {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin: 0px 30px 50px 0px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: navy;
+}
+
+/* container */
+.container {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 50px 30px;
+  box-shadow: 0 20px 65px rgba(87, 11, 16, 0.3);
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* display */
+.display {
+  box-shadow: 0 0 20px rgbs(0, 139, 253, 0.25);
+  padding: 10px;
+  border: 1px solid rgba(9, 82, 158, 0.3);
+}
+
+/* text */
+.container p {
+  color: navy;
+  line-height: 2;
+  font-size: 19px;
+}
+
+.container h3 {
+  color: purple;
+  margin: 35px 0 10px 35%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.container h3::before {
+  content: "- ";
+  color: red;
+}
+
+/* button */
+.container button {
+  background-color: navy;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 5px;
+  margin-top: 20%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
 }

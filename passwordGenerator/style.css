@@ -38,15 +38,16 @@ input {
   background-color: transparent;
 } */
 
-#output {
+/* output */
+/* #output {
   text-align: center;
   font-size: 2rem;
   margin: 0 auto 1.2rem;
   padding: 5px;
   box-shadow: 0 0 20px rgbs(0, 139, 253, 0.5);
-}
+} */
 
-#pass_gen .range {
+/* #pass_gen .range {
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 60px;
@@ -55,14 +56,16 @@ input {
   padding: 0.4rem 1rem 0.8rem 2.5rem;
   border: 2px solid teal;
   border-radius: 3px;
-}
+} */
 
-#display_pass_length {
+/* Lingth display */
+/* #display_pass_length {
   border: none;
   width: 40px;
-}
+} */
 
-#pass_gen .range input[type="range"] {
+/* length range */
+/* #pass_gen .range input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 40%;
@@ -80,9 +83,9 @@ input {
   scroll-behavior: smooth;
   z-index: 1;
   margin-right: 40px;
-}
+} */
 
-.range input[type="range"]::-webkit-slider-thumb {
+/* .range input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 25px;
@@ -91,16 +94,18 @@ input {
   cursor: pointer;
   border-radius: 18px;
   transition: 0.5s ease;
-}
+} */
 
-body #password-generator .range #display-password-length {
+/* length display */
+/* body #password-generator .range #display-password-length {
   text-align: center;
   font-size: 1.4rem;
   width: 80px;
   padding-top: 10px;
-}
+} */
 
-.flex {
+/* password attrubute buttons */
+/* .flex {
   margin: 1rem 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -128,9 +133,10 @@ body #password-generator .range #display-password-length {
   display: block;
   width: 80px;
   transition: 0.2s ease;
-}
+} */
 
-.generateButton {
+/* gennerate button */
+/* .generateButton {
   outline: none;
   background: #0f6cc3;
   color: white;
@@ -148,4 +154,4 @@ body #password-generator .range #display-password-length {
 .generateButton:hover {
   border: 2px solid rgb(205, 151, 12);
   background: rgb(173, 144, 82);
-}
+} */
