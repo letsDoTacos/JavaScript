@@ -24,7 +24,6 @@ body {
 
 .wrapper {
   width: 400px;
-  height: 600px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
